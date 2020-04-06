@@ -13,5 +13,5 @@ end
 
 post '/checkout' do 
   @sesion = sesion 
-  
+  sesion
 end
