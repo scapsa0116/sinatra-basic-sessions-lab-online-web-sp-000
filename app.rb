@@ -13,5 +13,6 @@ end
 
 post '/checkout' do 
   @sesion = sesion 
-  sesion
+  sesion["name"] = item 
+  
 end
