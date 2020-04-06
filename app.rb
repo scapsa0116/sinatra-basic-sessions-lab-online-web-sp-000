@@ -10,4 +10,6 @@ end
 get '/' do 
   erb :index
 end 
+
+post 
 end
