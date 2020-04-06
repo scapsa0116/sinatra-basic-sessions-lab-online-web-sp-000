@@ -13,6 +13,6 @@ end
 
 post '/checkout' do 
   @sesion = sesion 
-  sesion["name"] = item 
-  
+  item = params["item"]
+  @sessions[:item] = item
 end
