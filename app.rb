@@ -15,4 +15,5 @@ post '/checkout' do
   @sesion = sesion 
   item = params["item"]
   @sessions[:item] = item
+end 
 end
