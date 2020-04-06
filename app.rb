@@ -6,9 +6,7 @@ class App < Sinatra::Base
   set :session_secret, "secret"
 end
 
-post '/checkout' do 
-  enable :sessions
-  set :session_secret, "secret"
+get '/' do 
   erb :index
 end 
 end
