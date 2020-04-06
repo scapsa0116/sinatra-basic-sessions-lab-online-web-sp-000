@@ -11,5 +11,5 @@ get '/' do
   erb :index
 end 
 
-post 
+post '/checkout' do 
 end
