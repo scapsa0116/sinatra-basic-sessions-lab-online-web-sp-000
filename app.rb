@@ -12,5 +12,6 @@ get '/' do
 end 
 
 post '/checkout' do 
+  @sesion = sesion 
   
 end
